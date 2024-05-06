@@ -1,5 +1,5 @@
 import { useState, memo } from "react";
-
+import { PropTypes } from "prop-types";
 import IconButton from "../UI/IconButton.jsx";
 import MinusIcon from "../UI/Icons/MinusIcon.jsx";
 import PlusIcon from "../UI/Icons/PlusIcon.jsx";
@@ -22,8 +22,7 @@ function isPrime(number) {
 
   return true;
 }
-
-const Counter = memo(function Counter({ initialCount }) {
+export default function Counter({ initialCount }) {
   log("<Counter /> rendered", 1);
   const initialCountIsPrime = isPrime(initialCount);
 
@@ -54,5 +53,7 @@ const Counter = memo(function Counter({ initialCount }) {
       </p>
     </section>
   );
-});
-export default Counter;
+}
+Counter.propTypes = {
+  initialCount: PropTypes.number,
+};
