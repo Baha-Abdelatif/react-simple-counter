@@ -1,6 +1,6 @@
 # React-Simple-Counter
 
-## Quiz Application made with React
+## Simple Counter Application made with React
 
 Simple Counter application made to dive into React renders and states optimizations.
 Created with React as part of my preparation for the "Fullstack Web & Mobile Application Developer" professional qualification.
