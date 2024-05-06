@@ -18,6 +18,7 @@ function App() {
       <main>
         <CounterSetter handleSetCount={handleSetCount} />
         <Counter initialCount={chosenCount} />
+        <Counter initialCount={3} />
       </main>
       <Footer repository={"react-simple-counter"} />
     </>
