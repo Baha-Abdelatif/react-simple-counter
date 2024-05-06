@@ -45,28 +45,6 @@ main {
   margin: 2rem auto;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 0;
-  padding: 2rem;
-  text-align: center;
-}
-footer a {
-  color: #87a7a4;
-}
-footer a:hover {
-  color: #16f3eb;
-}
-footer a.footer-icon {
-  text-decoration: none;
-}
-footer a.footer-icon:hover {
-  text-decoration: underline;
-}
-
 section {
   margin: 2rem 0;
 }
@@ -203,4 +181,26 @@ section {
 .button-icon {
   color: #051a19;
   height: 0.9rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 2rem;
+  text-align: center;
+}
+footer a {
+  color: #87a7a4;
+}
+footer a:hover {
+  color: #16f3eb;
+}
+footer a.footer-icon {
+  text-decoration: none;
+}
+footer a.footer-icon:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=index.css.map */
